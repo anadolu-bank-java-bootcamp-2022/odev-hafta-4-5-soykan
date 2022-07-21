@@ -10,9 +10,9 @@ import java.sql.SQLException;
 public class DatabaseConnection {
 
     // VERITABANI AYARLARINI KENDI KURULUMUNUZA GORE GUNCELLEME YAPINIZ.
-    private final String URL = "jdbc:postgresql://localhost:5330/swapper";
-    private final String USER = "root";
-    private final String PASSWORD = "toor";
+    private final String URL = "jdbc:postgresql://localhost:5432/swapper";
+    private final String USER = "soykanswapper";
+    private final String PASSWORD = "123456";
 
     private Connection connection = null;
 
